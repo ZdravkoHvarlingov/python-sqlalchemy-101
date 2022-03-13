@@ -1,9 +1,5 @@
+import model
 from db.core import Base, engine
-
-from model.customer import Customer
-from model.car import Car
-from model.manufacturer import Manufacturer
-from model.purchase import Purchase
 
 
 def create_db():
